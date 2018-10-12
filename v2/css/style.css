@@ -1,0 +1,474 @@
+body {
+  min-height: 75rem;
+  padding-top: 3.2rem;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+.navbar a:hover{
+  text-decoration: underline !important;
+}
+
+.maincolor{
+  background: rgba(48, 151, 209, 0.95) !important;
+  color: #fff;
+}
+
+@media (min-width: 1px) {
+  .main-image{
+    position: relative;
+    background: url("../img/stadium3.jpg");
+    background-size: cover;
+    background-position: center;
+    height:400px;
+  }
+}
+
+@media (min-width: 600px) {
+  .main-image{
+    position: relative;
+    background: url("../img/stadium3.jpg");
+    background-size: cover;
+    background-position: center;
+    height:500px;
+  }
+}
+@media (min-width: 992px) {
+  .main-image{
+    position: relative;
+    background: url("../img/stadium3.jpg");
+    background-size: cover;
+    background-position: center;
+    height:600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-image{
+    position: relative;
+    background: url("../img/stadium3.jpg");
+    background-size: cover;
+    background-position: center;
+    height:700px;
+  }
+}
+
+
+
+@media (min-width: 1px) {
+  .konzept-image{
+    position: relative;
+    background: url("../img/recorder1.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height:400px;
+  }
+}
+
+@media (min-width: 600px) {
+  .konzept-image{
+    position: relative;
+    background: url("../img/recorder1.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height:500px;
+  }
+}
+@media (min-width: 992px) {
+  .konzept-image{
+    position: relative;
+    background: url("../img/recorder1.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height:600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .konzept-image{
+    position: relative;
+    background: url("../img/recorder1.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height:700px;
+  }
+}
+
+
+
+@media (min-width: 1px) {
+  .manager-image{
+    position: relative;
+    background: url("../img/manager1.jpg");
+    background-size: cover;
+    background-position: top;
+    height:400px;
+  }
+}
+
+@media (min-width: 600px) {
+  .manager-image{
+    position: relative;
+    background: url("../img/manager1.jpg");
+    background-size: cover;
+    background-position: top;
+    height:500px;
+  }
+}
+@media (min-width: 992px) {
+  .manager-image{
+    position: relative;
+    background: url("../img/manager1.jpg");
+    background-size: cover;
+    background-position: top;
+    height:600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .manager-image{
+    position: relative;
+    background: url("../img/manager1.jpg");
+    background-size: cover;
+    background-position: top;
+    height:700px;
+  }
+}
+
+
+
+
+@media (min-width: 1px) {
+  .dienst-image{
+    position: relative;
+    background: url("../img/dienst1.jpg");
+    background-size: cover;
+    background-position: center;
+    height:400px;
+  }
+}
+
+@media (min-width: 600px) {
+  .dienst-image{
+    position: relative;
+    background: url("../img/dienst1.jpg");
+    background-size: cover;
+    background-position: center;
+    height:500px;
+  }
+}
+@media (min-width: 992px) {
+  .dienst-image{
+    position: relative;
+    background: url("../img/dienst1.jpg");
+    background-size: cover;
+    background-position: center;
+    height:600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .dienst-image{
+    position: relative;
+    background: url("../img/dienst1.jpg");
+    background-size: cover;
+    background-position: center;
+    height:700px;
+  }
+}
+
+
+
+
+@media (min-width: 1px) {
+  .contact-image{
+    position: relative;
+    background: url("../img/contact1.jpg");
+    background-size: cover;
+    background-position: center;
+    height:400px;
+  }
+}
+
+@media (min-width: 600px) {
+  .contact-image{
+    position: relative;
+    background: url("../img/contact1.jpg");
+    background-size: cover;
+    background-position: center;
+    height:500px;
+  }
+}
+@media (min-width: 992px) {
+  .contact-image{
+    position: relative;
+    background: url("../img/contact1.jpg");
+    background-size: cover;
+    background-position: center;
+    height:600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-image{
+    position: relative;
+    background: url("../img/contact1.jpg");
+    background-size: cover;
+    background-position: center;
+    height:700px;
+  }
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
+.gradient1{
+  background: linear-gradient(142deg, rgba(0, 0, 0, 0.75), rgba(142, 142, 142, 0.32));
+}
+.gradient2{
+background: linear-gradient(142deg, rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.42));
+}
+.gradient3{
+background: linear-gradient(142deg, rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.14));
+}
+
+.coach{
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+border: 8px solid #e6e6e6;
+}
+
+
+.bg1{
+  background: url("../img/bgg1.jpg");
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.bg2{
+  background: url("../img/bgg2.jpg");
+  position: relative;
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+
+.bg3{
+  background: url("../img/bgg3.jpg");
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.scircle{
+  height: 50px;
+  width: 50px;
+  border-radius: 22%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+  display: inline-block;
+}
+
+.scircle:hover {
+  filter: brightness(55%);
+}
+
+
+
+.aw{
+  background: #3194c9!important;
+  color: white
+}
+
+.fb{
+  background: #3b5998!important;
+  color: white
+}
+
+.linkedin{
+  background: #0082ca!important;
+  color: white
+}
+
+.insta{
+  background: #2e5e86!important;
+  color: white
+}
+
+.yt{
+  background: #ed302f!important;
+  color: white
+}
+
+
+.scircle a{
+  color: #fff;
+}
+
+.f1{
+  font-family: 'Rubik', sans-serif;
+}
+
+.f2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.f3{
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.f4{
+  font-family: 'Playfair Display', serif;
+}
+
+.f5{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.arbeitsweise i{
+  font-size: 30px;
+}
+
+.arbeitsweise{
+  font-size: 15px;
+}
+
+
+
+.kozept-image2{
+  position: relative;
+  background: url("../img/kon2.jpg");
+  background-size: cover;
+  background-position: center;
+  height:500px;
+}
+
+.kozept-image3{
+  position: relative;
+  background: url("../img/kon3.jpg");
+  background-size: cover;
+  background-position: center;
+  height:500px;
+}
+
+.zielgruppe strong{
+  font-weight: 900;
+}
+
+
+
+.list-bullet i, .list-bullet svg {
+    font-size: 8px;
+    position: relative;
+    top: 2px;
+    margin-right: 1rem;
+    transform: translateY(-50%);
+}
+
+
+.plus-bullet i, .plus-bullet svg {
+    font-size: 8px;
+    position: relative;
+    top: 2px;
+    margin-left: -1.3rem;
+    padding-right: 1.8em;
+    /* padding-left: 4.4rem */
+    transform: translateY(-50%);
+}
+
+
+.plus-bullet li{
+  padding-left: 20px;
+}
+
+
+.bronze{
+    background-color: #e96b1f !important;
+    color: #000;
+}
+
+.experince{
+    color: #fff;
+    background-color: #3a9cd3;
+}
+
+.clubs i{
+  padding-right: 10px;
+}
+/* Contact */
+
+.divider {
+    position: relative;
+}
+
+@media (max-width: 991px){
+  .dividernone::after {
+      display: none;
+  }
+}
+
+.divider::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border-right: 1px solid #e7eaf3;
+    content: "";
+}
+
+
+.iconlg {
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 1.7rem;
+    border-radius: 2rem;
+}
+
+.iconprimary {
+    color: #377dff;
+    background: rgba(55, 125, 255, 0.1);
+}
+
+.icon {
+    position: relative;
+    z-index: 1;
+    line-height: 0.7;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 2.2rem;
+    border-radius: 2rem;
+    transition: 0.5s ease-in-out;
+}
+
+.iconinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.contact-form{
+  background-color: #292727e0;
+  color: #fff;
+}
+
+
+/* End Contact */
